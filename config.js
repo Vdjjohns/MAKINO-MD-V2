@@ -4,7 +4,7 @@ const chalk = require("chalk");
 //to enable function - true
 //to disable function - false
 //
-global.available = false;
+global.available = true;
 global.autoReadGc = false;
 global.autoReadAll = false;
 global.antitags = false;
@@ -14,14 +14,14 @@ global.antitags = false;
 global.autoTyping = false;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
 global.groupevent = true;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //make true to view statuses 
+global.statusseen = true;                 //make true to view statuses 
 global.ANTI_BOT = false;
 global.PM_BLOCKER = false;
-global.CHATBOT = false;
+global.CHATBOT = true;
 
 
-global.Owner = ["2348074439626"]; //like 2347080968564 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
+global.Owner = ["254768390412"]; //like 2347080968564 
+global.OwnerName =  "VDJ JOHNS";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
 global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
 global.author = "TAIRA MAKINO";                               //Do not change.
@@ -30,14 +30,14 @@ global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm ";
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm"; //Do not change!
 global.menutype = "v3"
 
-global.prefa = ['','!','.',','] 
+global.prefa = ['.'] 
 
 //
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
 global.Thumb = fs.readFileSync("./Assets/pic7.jpg");
 global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg");
 global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
-global.OwnerNumber = [""] //Ignore,Unused
+global.OwnerNumber = ["254768390412"] //Ignore,Unused
 
 //
 global.ntilinkytvid = []
